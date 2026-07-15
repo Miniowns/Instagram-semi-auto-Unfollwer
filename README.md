@@ -1,2 +1,1 @@
-# Instagram-semi-auto-Unfollwer
-Instagram Semi-Auto Unfollows is a Python tool that helps manage your Instagram following list safely . It opens profiles from a CSV file using Selenium, reducing repetitive manual work while keeping you in control. Built with Python, Selenium, and Pandas for educational and personal use.
+Instagram Semi-Auto Unfollowers is a Python tool that helps manage your Instagram following list. It reads usernames from a TXT file, opens profiles using Selenium, and works with a Chrome extension to streamline the unfollow process while keeping the user in control. Built for educational and personal use.
