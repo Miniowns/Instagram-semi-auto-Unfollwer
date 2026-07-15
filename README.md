@@ -1,15 +1,33 @@
-# Instagram Semi-Auto Unfollowers
+# 🚀 Instagram Semi-Auto Unfollowers
 
-Instagram Semi-Auto Unfollowers is a Python-based tool that simplifies managing your Instagram following list. Instead of manually searching for each account, the application automatically opens profiles from a CSV file, allowing you to review and unfollow accounts with minimal effort while keeping you in control of the process.
+A lightweight **Python + Selenium** tool that makes managing your Instagram following list faster and easier.
 
-The project uses **Python**, **Selenium WebDriver**, and **Pandas** to automate browser navigation and handle profile data efficiently. It supports Chromium-based browsers, including **Google Chrome** and **Brave Browser**, making it easy to integrate into an existing workflow.
+Instead of manually searching for every account, the tool reads usernames from a **TXT file**, automatically opens each Instagram profile, and works alongside a **Chrome extension** to streamline the unfollow process. The workflow is **semi-automatic**, giving you full control over every action.
 
-### Features
+> ⚠️ This project **does not automatically unfollow accounts**. It assists with opening profiles and speeding up the manual workflow.
 
-* Import Instagram usernames from a CSV file.
-* Automatically open profile pages in your browser.
-* Semi-automatic workflow that lets you review accounts before taking action.
-* Progress tracking and simple logging.
-* Clean, modular code for easy customization and future improvements.
+## ✨ Features
 
-This project is intended for educational and personal-use purposes. Users are responsible for ensuring their use complies with Instagram's Terms of Service and should avoid excessive or abusive automation.
+* 📄 Load Instagram usernames from a **TXT** file.
+* 🌐 Automatically open Instagram profiles.
+* 🧩 Works with a **Chrome Extension** for a faster unfollow workflow.
+* 🤖 Powered by **Selenium WebDriver**.
+* 🌍 Supports **Google Chrome** and **Brave Browser**.
+* 📊 Displays progress while processing usernames.
+* 🛠️ Simple, clean, and customizable Python code.
+
+## 🛠️ Built With
+
+* Python 3
+* Selenium WebDriver
+* ChromeDriver
+* Chrome Extension
+* TXT File
+
+## 📌 Why This Project?
+
+Managing a large following list can be repetitive and time-consuming. This tool removes the repetitive task of searching for profiles, allowing you to focus on reviewing accounts and deciding whether to unfollow them.
+
+## ⚠️ Disclaimer
+
+This project is provided for **educational and personal use only**. You are responsible for using it in accordance with Instagram's Terms of Service. Excessive automation may result in account restrictions.
